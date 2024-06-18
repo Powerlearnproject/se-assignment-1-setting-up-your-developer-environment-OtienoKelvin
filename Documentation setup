@@ -1,0 +1,45 @@
+1. Downloading and installing Windows 11.
+
+My PC did not meet the meanimum system requirement for Windows 11 as per the Microsoft guideline on installation of Windows 11.
+So I had to adjust some changes in my Regisry editor as Microsoft recommended for people whose PC did not meet the minimum system requirement for Windows 11.
+
+In my Regisry editor Inavigated to: HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup  and added a regisry by the name, type and value as shown below.
+
+Name: AllowUpgradesWithUnsupportedTPMOrCPU
+
+Type: REG_DWORD
+
+Value: 1
+
+After downloading Windows 11 Disk Image (ISO) for x64 devices, I located the file in File Explorer, right cklicked it and mount it to begin Windows 11 setup.
+
+
+2. Downloading and installing Visual Studio Code.
+
+Visit the official website for Visual Code Studio using the link provided. And clicked on 'download for windows'![image3](image-2.png)
+
+After the file download, I double click on the file to begin installation process where I accepted the agreemet terms. ![image 1](image.png)
+
+Proceeded to adding a path ![image 2](image-1.png)   I continued with the istructions to installing and launching VS code.![image 4](image-3.png)
+
+
+3. Setting up version control system.
+
+Visited the official website for git and clicked on Standalone Installer 64-bit Git for Windows Setup as per my system. ![Image 5](image-4.png)
+
+After installation, opened git bash as an administrator and  used :
+
+git config --user.name "Kelvin"
+
+git config --user.email "otienokelvin824@gmail.com"   to configure git to my local machine.
+
+Created GitHub account used;
+
+git config --global user.name "OtienoKelvin"
+
+git config --global user.email "otienokelvin824@gmail.com"   to configure my git to my Git Hub account.
+
+
+4. MySQL
+
+Installed and configured mysql ![image 6](image-5.png)
